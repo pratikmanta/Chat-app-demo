@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import AsyncStorage from '@react-native-community/async-storage'
 import { TextInput, View, StyleSheet, TouchableOpacity, Text, YellowBox } from 'react-native';
 import { GiftedChat } from 'react-native-gifted-chat';
-import { initializeFirebase } from './helpers';
+import { initializeFirebase } from './firebase-config';
 import 'firebase/firestore';
 
 const db = initializeFirebase()
